@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152756005443",
+    "project_id": "root-food-master",
+    "storage_bucket": "root-food-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152756005443:android:e6a9474fe80855e06802f6",
+        "android_client_info": {
+          "package_name": "com.example.root_food_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152756005443-isniiu3ffl026v7iaetdkcb5rs8jtkn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaOedYVkDPCzFyjLdFAgH-W4zgpblRGEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152756005443-isniiu3ffl026v7iaetdkcb5rs8jtkn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

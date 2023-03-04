@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root_Food_Master</string>
+    <string name="title_activity_home_screen_nav">Home_Screen_Nav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_google_maps">GoogleMaps</string>
+</resources>
