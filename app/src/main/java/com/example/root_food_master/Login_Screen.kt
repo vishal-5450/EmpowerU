@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.root_food_master.databinding.ActivityLoginScreenBinding
 import com.example.root_food_master.databinding.FragmentDashboardBinding
+import com.example.root_food_master.ngo.NGORegistration
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -34,6 +35,10 @@ class Login_Screen : AppCompatActivity() {
 
         googleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions)
 
+        binding.registerNgo.setOnClickListener {
+            val bottomSheetFragment = AdminBottomUpSheet()
+            bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
+        }
 
         binding.GoogleSignIn.setOnClickListener {
             signInGoogle()

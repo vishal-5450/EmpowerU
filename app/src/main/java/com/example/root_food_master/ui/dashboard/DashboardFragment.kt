@@ -12,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.helpothers_module.HelpActivity
 import com.example.root_food_master.FoodSecurity
+import com.example.root_food_master.NGODataActivity
 import com.example.root_food_master.NgoScreen
 import com.example.root_food_master.databinding.FragmentDashboardBinding
 import com.example.root_food_master.model.questions
@@ -40,11 +41,11 @@ class DashboardFragment : Fragment() {
         binding.cardView1.setOnClickListener {
             startActivity(Intent(this.context, FoodSecurity::class.java))
         }
+        binding.cardView2.setOnClickListener{
+            startActivity(Intent(this.context, NGODataActivity::class.java))
+        }
         binding.cardView3.setOnClickListener {
             startActivity(Intent(this.context, NgoScreen::class.java))
-        }
-        binding.cardView5.setOnClickListener {
-            startActivity(Intent(this.context,FoodSecurity::class.java))
         }
         binding.cardView4.setOnClickListener {
             startActivity(Intent(this.context,HelpActivity::class.java))

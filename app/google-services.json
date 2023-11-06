@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "152756005443",
+    "firebase_url": "https://root-food-master-default-rtdb.firebaseio.com",
     "project_id": "root-food-master",
     "storage_bucket": "root-food-master.appspot.com"
   },
@@ -14,7 +15,23 @@
       },
       "oauth_client": [
         {
-          "client_id": "152756005443-isniiu3ffl026v7iaetdkcb5rs8jtkn2.apps.googleusercontent.com",
+          "client_id": "152756005443-osqmu97urhhmprgva43fu9sdcchh1al9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.root_food_master",
+            "certificate_hash": "9c132ca75ab5a089f8c5c710ad8326d84ebeb959"
+          }
+        },
+        {
+          "client_id": "152756005443-vpab2jce402ujg7bl8krdsrorlu9qk50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.root_food_master",
+            "certificate_hash": "3a060edfd71ed3d86e6dafd924f37f08f6f53a41"
+          }
+        },
+        {
+          "client_id": "152756005443-h0o7v22el0g7hj4aurqv31190ijg3g2o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +44,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "152756005443-isniiu3ffl026v7iaetdkcb5rs8jtkn2.apps.googleusercontent.com",
+              "client_id": "152756005443-h0o7v22el0g7hj4aurqv31190ijg3g2o.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
